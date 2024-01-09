@@ -10,7 +10,7 @@ export const Header = () => {
 
 const HeaderTitle = () => {
   return (
-    <div className="flex items-center gap-4 flex-1">
+    <div className="hidden md:flex items-center gap-4 flex-1">
       <p className="text-[15px] font-normal leading-[22px] text-[#1A181E]">Payments</p>
       <div className="flex items-center gap-1.5">
         <img className="h-3.5 w-3.5" src="./assets/header/info.svg" alt="info" />
@@ -22,7 +22,7 @@ const HeaderTitle = () => {
 
 const Search = () => {
   return (
-    <div className="w-[400px] 2xl:w-[600px] flex items-center self-stretch shrink-0 px-4 py-[9px] rounded-md gap-2 bg-[#F2F2F2]">
+    <div className="md:w-[400px] 2xl:w-[600px] flex items-center self-stretch shrink-0 px-4 py-[9px] rounded-md gap-2 bg-[#F2F2F2]">
       <img className="h-4 w-4" src="./assets/header/search.svg" alt="search" />
       <input
         className="flex-1 text-[#1A181E] placeholder:text-[#808080] text-[15px] placeholder:text-[15px] font-light placeholder:font-light leading-[22px] placeholder:leading-[22px] outline-none border-0 bg-transparent"

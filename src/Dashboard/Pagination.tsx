@@ -6,7 +6,7 @@ export const Pagination = () => {
           <img className="h-[18px] w-[18px]" src="./assets/chevron-left.svg" alt="left arrow" />
           <span className="text-[#4D4D4D] text-[14px] font-medium leading-5">Previous</span>
         </div>
-        <div className="flex items-start gap-2">
+        <div className="hidden sm:flex items-start gap-2">
           <PaginationItem page="1" />
           <PaginationItem page="..." />
           <PaginationItem page="10" isActive={true} />
